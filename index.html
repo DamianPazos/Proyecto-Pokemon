@@ -16,6 +16,61 @@
 </head>
 
 <body>
+
+    <!--Inicio del Header, el cual consta de 3 secciones (Lado Izquierdo, centro y derecho)-->
+
+    <header class="container_header" id="main-header">
+        <div class="container-fluid border">
+            <div class="row">
+
+                <!--Caja para el Logo y Nombre del Sitio, lado izquierdo-->
+
+                <div class="col-3" style="border:2px solid black">
+                    <h1>PokeWiki</h1>
+                </div>
+
+                <!--Caja vacía, ubicada al centro, para poder otorgar separación entre el Logo y el pequeño menpu derecho-->
+
+                <div class="col-4" style="border:2px solid black">
+                    <!--Aquí dentro no va código, porque la caja esta vacía-->
+                </div>
+
+                <div class="col-5" style="border:2px solid black">
+
+                    <!--Caja pequeña para el Buscador, Idioma y Dark Mode, lado derecho-->
+
+                    <div class="row p-3">
+                        <button>Buscador</button>
+                    </div>
+                    
+                    <div class="row p-3">
+                        <div class="col p-3">
+                            <button>Idioma</button>
+                        </div>
+
+                        <div class="col p-3">
+                            <button>Dark Mode</button>
+                        </div>
+                    </div>          
+                </div>
+            </div>
+
+            <!--Container para el menu de navegación-->
+
+            <nav class="container">
+                <div class="row">
+                    <div class="col"><a href="" style="color:white; text-decoration:none">Inicio</a></div>
+                    <div class="col"><a href="" style="color:white; text-decoration:none">Funciones</a></div>
+                    <div class="col"><a href="" style="color:white; text-decoration:none">Proyecto</a></div>
+                    <div class="col"><a href="" style="color:white; text-decoration:none">Contacto</a></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!--Container general para las Pokemon Cards y el Filtro (Pazos)-->
+
+
     <div class="container-flez border" id="container_general">
         <div class="row border m-1">
             <div class="col-8 border">
@@ -144,5 +199,27 @@
         </div>
     </div>
 </body>
+
+
+<!--Container para el Footer-->
+
+<footer id="footer">
+    <div class="container-fluid">
+        <div class="row">
+            <h2>Coded by</h2>
+            <div class="col">
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/damian-barera-89b44b63/" target="_blank"><span>Damián Barera</span></a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/damian-pazos/" target="_blank"><span>Damián Pazos</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</footer>
 
 </html>
