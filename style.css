@@ -40,3 +40,19 @@
     border-color: red;
     color: black;
 }
+
+#id-pokemon {
+    font-style: italic;
+    color: gray;
+}
+
+#nombre-pokemon {
+    font-weight: bold;
+    color: black;
+}
+
+#atributos {
+    font-family: calibri;
+    color:white;
+    background-color:gray;
+}
