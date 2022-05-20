@@ -11,7 +11,7 @@ let idPokemonSelector = prompt('Ingrese ID');
 const cardPokemon = document.createElement('div');
 
 // Consumo de API (async genera una promesa en la funcion)
-const tomaApi = async function f() {
+const tomaApi = async () => {
     // Guardo el la respuesta del fetch (await espero a que devuelva una respuesta)
     const response = await fetch(`${urlPokemon}/${idPokemonSelector}/`);
     // Tranformo en json la respuesta y la guardo
