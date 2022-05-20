@@ -23,23 +23,3 @@ const tomaApi = async function f() {
 } 
 // Imprimo por consola los datos para verificar
 tomaApi().then(console.log);
-
-// const tomaApi = fetch(`${urlPokemon}/pikachu/`)
-//     .then((resolve) => resolve.json())
-//     .then((data) => {
-//         const pokemonName = data.name;
-//         const h1 = document.createElement('h1');
-//         h1.innerText = pokemonName;
-//     }
-//     )
-
-// console.log(json);
-
-// (forms) => {
-//         const datosPokemon = forms;
-//         const namePokemon = forms[0].name;
-//         cardPokemon.innerHTML = `<div class="card-header m-1 border">
-//         <div class="card-title p-1 text-center" id="nombre-pokemon">${namePokemon}</div>
-//         <div class="card-subtitle text-center" id="id-pokemon">#ID</div>
-//     </div>`;
-//     }
