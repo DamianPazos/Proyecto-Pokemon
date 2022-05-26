@@ -56,3 +56,8 @@
     color:white;
     background-color:gray;
 }
+
+body.darkmode {
+    background-color: black;
+    color: white;
+}
