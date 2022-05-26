@@ -2,6 +2,10 @@ const card = document.getElementById('card');
 
 console.log(card);
 
+// DarkMode Logic : This DarkMode adds the class 'darkmode' to the body when a 'click' event takes place in the button
+// localStorage : Even if the site is reloaded or close and open again, the darkmode will persists if the user chooses to use the darkmode by clicking the button.
+
+
 const bdark = document.querySelector('#bdark');
 const body = document.querySelector('body');
 load();

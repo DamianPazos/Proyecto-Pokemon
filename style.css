@@ -57,7 +57,24 @@
     background-color:gray;
 }
 
+/* DarkMode Styles */
+
 body.darkmode {
     background-color: black;
     color: white;
+}
+
+.darkmode .container_header {
+    background-color: black;
+    color: white;
+    border: 5px solid white;
+    margin: 5px;
+}
+
+.darkmode #footer {
+    border: 5px solid white;
+    background-color: black;
+    padding-top: 10px;
+    color: white;
+    text-align: center;
 }
